@@ -18,7 +18,7 @@ namespace Demo≤‚ ‘
 			for (int i = 0;i < 10;i++) {
 				num.push_back(i);
 			}
-			Assert::AreEqual(7, demo.rotate(num, -8));
+			Assert::AreEqual(8, demo.rotate(num, -8));
 		}
 		TEST_METHOD(Second)
 		{
