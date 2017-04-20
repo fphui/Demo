@@ -10,7 +10,6 @@ public:
 	{
 		int n = nums.size();
 		
-
 		if (n == 0 )//判断数组为空返回标志位-1
 			return -1;
 		k = k%n;
